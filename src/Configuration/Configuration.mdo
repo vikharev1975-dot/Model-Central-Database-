@@ -42,7 +42,10 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
+  <roles>Role.Курьер</roles>
+  <commonModules>CommonModule.ОбменСМобильнымПриложением</commonModules>
   <exchangePlans>ExchangePlan.ОбменСМобильнымПриложением</exchangePlans>
+  <httpServices>HTTPService.ОбменКурьера</httpServices>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>

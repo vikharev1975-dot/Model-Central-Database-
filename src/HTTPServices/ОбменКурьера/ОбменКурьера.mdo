@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a17f690d-38b7-4e7f-ac08-ed5901f954b4">
+  <name>ОбменКурьера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с курьером</value>
+  </synonym>
+  <rootURL>courier</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="dad81c1c-ce48-40ed-b47c-87160e468c03">
+    <name>Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <template>/exchange</template>
+    <methods uuid="9ea911f9-c3e8-4482-b798-4d9bf5398ca7">
+      <name>exchange</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обмен данными</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>exchange</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a831e4e4-386f-484b-bb50-e2148b89dd6c">
+    <name>UploadPhoto</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка фото</value>
+    </synonym>
+    <template>/uploadPhoto</template>
+    <methods uuid="e4b17990-09bf-4f47-bde1-68a2e26ce151">
+      <name>uploadPhoto</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрузка фото</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>uploadPhoto</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
